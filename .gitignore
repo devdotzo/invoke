@@ -1,0 +1,32 @@
+# Root ignores for the submitted mobile app and landing page.
+
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+dist/
+build/
+.gradle/
+
+# Android local and generated files
+android/local.properties
+android/.gradle/
+android/app/build/
+android/build/
+
+# Environment and machine-local files
+.env
+.env.*
+*.log
+
+# Desktop app files intentionally excluded from this submission
+/src/
+/src-tauri/
+/scripts/
+/public/
+/index.html
+/package.json
+/package-lock.json
+/tsconfig.json
+/vite.config.ts
+/start.sh
