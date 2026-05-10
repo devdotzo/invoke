@@ -43,6 +43,8 @@ When the Figural Side Hustle Hack appeared, that question turned into the idea f
 
 The build came together quickly. I used Anything for coding support, downloaded the generated project ZIP, changed the configuration by hand, wired the mobile app and landing page into shape, and got the workflow running. The tooling was very smooth to work with, and it helped turn the idea from a question into a working hackathon submission.
 
+I used Anything to make the whole initial app, then downloaded the ZIP and continued from there. After that, I used a custom skill file to improve the UI, add a few features, and fix bugs so the final submission felt more complete and polished.
+
 ---
 
 ## What Invoke Does
