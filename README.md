@@ -17,6 +17,10 @@ The desktop/Tauri app is intentionally not included in this repository push.
 
 ---
 
+![Invoke hero screenshot](public/1.png)
+
+---
+
 ## Hackathon Fit
 
 Invoke is prepared for Figural Side Hustle Hack. Figural describes itself as "the layer that decides what to build next", and this submission focuses on a concrete side-hustle product: a mobile assistant that helps people act on ideas and work messages the moment they appear.
@@ -38,6 +42,12 @@ Instead of another dictation tool, Invoke treats speech as a command bar for rea
 - Connects action intent to external tools through Composio-ready clients.
 - Gives mobile users a floating voice bubble for fast capture.
 - Keeps privacy mode and local setup visible in onboarding.
+
+---
+
+![Invoke real life use cases](public/2.png)
+
+---
 
 Example commands:
 
@@ -178,6 +188,7 @@ Use the in-app connection test before relying on the endpoint.
 Invoke/
 ├── android/      # Kotlin Android mobile app
 ├── frontend/     # Next.js landing page
+├── public/       # README image assets
 ├── vercel.json   # Vercel build config for frontend/
 ├── .gitignore    # Keeps desktop app and generated files out
 └── README.md

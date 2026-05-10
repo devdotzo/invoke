@@ -25,6 +25,10 @@ android/build/
 /src-tauri/
 /scripts/
 /public/
+!/public/
+/public/*
+!/public/1.png
+!/public/2.png
 /index.html
 /package.json
 /package-lock.json
