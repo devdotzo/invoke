@@ -18,6 +18,7 @@ android/build/
 .env
 .env.*
 *.log
+*.duplicate
 
 # Desktop app files intentionally excluded from this submission
 /src/
