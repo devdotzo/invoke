@@ -11,7 +11,7 @@ This repository contains the hackathon submission scope only:
 
 The desktop/Tauri app is intentionally not included in this repository push.
 
-**Landing page:** <https://invokeff.vercel.dev/>  
+**Landing page:** <https://invokeff.vercel.app/>  
 **Repository:** <https://github.com/devdotzo/invoke>  
 **Hackathon:** <https://figural.world/sidehustlehack>
 
