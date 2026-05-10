@@ -45,6 +45,8 @@ The build came together quickly. I used Anything for coding support, downloaded 
 
 I used Anything to make the whole initial app, then downloaded the ZIP and continued from there. After that, I used a custom skill file to improve the UI, add a few features, and fix bugs so the final submission felt more complete and polished.
 
+I also set up an Invoke Bot fallback for more agentic tasks. If the mobile app cannot complete a spoken workflow directly, Invoke can still send the transcribed text to the bot, which uses GLM 5.1 reasoning to interpret the request and continue the task from there.
+
 ---
 
 ## What Invoke Does
@@ -54,6 +56,7 @@ I used Anything to make the whole initial app, then downloaded the ZIP and conti
 - Saves reusable snippets, names, project terms, and style preferences.
 - Supports local model routing through an Ollama endpoint.
 - Connects action intent to external tools through Composio-ready clients.
+- Can fall back to an Invoke Bot powered by GLM 5.1 reasoning for more agentic tasks.
 - Gives mobile users a floating voice bubble for fast capture.
 - Keeps privacy mode and local setup visible in onboarding.
 
