@@ -33,6 +33,18 @@ Instead of another dictation tool, Invoke treats speech as a command bar for rea
 
 ---
 
+## Origin Story
+
+I was in Bangalore last week for the Codex hackathon and YC Startup School, and I kept noticing people using Wispr Flow everywhere: inside auto rides, during hackathon work sessions, on buses, and in quick in-between moments where typing was awkward.
+
+I tried it myself and understood why people liked it. The experience was smooth, fast, and genuinely useful. But I also noticed that high-quality speech-to-text workflows are often paid, and I started asking a simple question: why does useful voice input have to be expensive, especially when local models are getting good enough to run personal workflows?
+
+When the Figural Side Hustle Hack appeared, that question turned into the idea for Invoke. I researched small local models and found a practical path with Whisper-style speech-to-text and Qwen 3 0.6B for intent routing. Then Composio made the idea more powerful: voice should not stop at transcription, it should connect to real app actions.
+
+The build came together quickly. I used Anything for coding support, downloaded the generated project ZIP, changed the configuration by hand, wired the mobile app and landing page into shape, and got the workflow running. The tooling was very smooth to work with, and it helped turn the idea from a question into a working hackathon submission.
+
+---
+
 ## What Invoke Does
 
 - Turns spoken requests into structured actions.
